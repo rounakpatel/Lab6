@@ -58,7 +58,7 @@ namespace Psim
 			if (cells.Count > 0)
 			{
 				if (cells[cells.Count - 1].Length != length || cells[cells.Count - 1].Width != width)
-					throw new ArgumentException($"cell dimention does not match the following length: {cells[cells.Count - 1].Length}, width: {cells[cells.Count - 1].Width}");
+					throw new ArgumentException($"cell dimension do not match the following length: {cells[cells.Count - 1].Length}, width: {cells[cells.Count - 1].Width}");
 			}
 			foreach (var sensor in sensors)
 			{
